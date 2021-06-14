@@ -1,4 +1,4 @@
-/* It shows only 50% of the size for news-input class for only medium screens */
+/* It shows only width 50% of the size for news-input class for only medium screens */
 @media (min-width: 768px) {
   .news-input {
     width: 50%;
