@@ -14,7 +14,58 @@
     <title>Frontend project</title>
   </head>
   <body>
-    Hello
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Landing Page</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What you'll learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What you'll learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What you'll learn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <!-- It will be flex for all the breakpoints except sm -->
+          <div>
+            <h1>Attend our <span class="text-warning">free webinar</span></h1>
+            <p class="lead my-4">
+              We focus on delivering all the basic stuff about blockchain and
+              prepare you for the further proceeding of how to learn it
+              completely
+            </p>
+            <button class="btn btn-primary btn-lg">Enroll for free</button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="images/blockchain.jpg"
+            alt="image"
+            width="450"
+            height="250"
+          />
+        </div>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
