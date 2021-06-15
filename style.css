@@ -1,3 +1,10 @@
+/* to increase the gap between showcase and navbar  */
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
 /* It shows only width 50% of the size for news-input class for only medium screens */
 @media (min-width: 768px) {
   .news-input {
